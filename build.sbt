@@ -33,14 +33,14 @@ lazy val commonSettings = Seq(
   }),
 )
 
+enablePlugins(ScalaJSPlugin)
+
 lazy val core = crossProject(JSPlatform, JVMPlatform)
-  .crossType(CrossType.Pure)
-  .enablePlugins(ScalaJSPlugin)
   .settings(commonSettings)
   .settings(
     name := "http4s-jsoniter",
     libraryDependencies ++= Seq(
-      "org.http4s"                            %% "http4s-core"             % "0.23.24",
-      "com.github.plokhotnyuk.jsoniter-scala" %% "jsoniter-scala-core"     % "2.28.0",
+      "org.http4s"                            %%% "http4s-core"             % "0.23.24",
+      "com.github.plokhotnyuk.jsoniter-scala" %%% "jsoniter-scala-core"     % "2.28.0",
     ),
   )
