@@ -1,0 +1,2 @@
+2024.01.31 21:19:23 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cornerman/projects/http4s-jsoniter/core/src/main/scala/http4sJsoniter/.metals/lsp.trace.json or /home/cornerman/.cache/metals/lsp.trace.json[0m
+2024.01.31 21:19:23 INFO  logging to file /home/cornerman/projects/http4s-jsoniter/.metals/metals.log[0m
