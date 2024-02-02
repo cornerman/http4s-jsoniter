@@ -8,7 +8,7 @@ import com.github.plokhotnyuk.jsoniter_scala.core.{readFromStream, writeToStream
 import org.http4s.headers.`Content-Type`
 import org.http4s.{DecodeResult, Entity, EntityDecoder, EntityEncoder, Headers, MediaType}
 
-object InputStreamEntityCodec {
+object JavaIOStreamEntityCodec {
 
   implicit def entityDecoder[F[_]: Async, A](implicit codec: JsonValueCodec[A]): EntityDecoder[F, A] =
     EntityDecoder.decodeBy[F, A](MediaType.application.json) { msg =>

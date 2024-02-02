@@ -20,7 +20,7 @@ import http4sJsoniter.ArrayEntityCodec._
 
 Import the encoder and decoder based on java `InputStream` and `OutputStream` for reading and writing with jsoniter:
 ```scala
-import http4sJsoniter.InputStreamEntityCodec._
+import http4sJsoniter.JavaIOStreamEntityCodec._
 ```
 
 TODO: configuring ReaderConfig and WriterConfig
