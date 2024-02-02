@@ -6,7 +6,7 @@ EntityEncoder and EntityDecoder for jsoniter in http4s.
 
 Get latest release:
 ```scala
-libraryDependencies += "com.github.cornerman" %% "http4s-jsoniter" % "0.1.1"
+libraryDependencies += "com.github.cornerman" %% "http4s-jsoniter" % "0.1.2"
 ```
 
 We additonally publish snapshot releases for every commit.
