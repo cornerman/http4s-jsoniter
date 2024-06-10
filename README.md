@@ -24,3 +24,7 @@ import http4sJsoniter.JavaIOStreamEntityCodec._
 ```
 
 TODO: configuring ReaderConfig and WriterConfig
+
+# References
+
+For a more generic approach based on chameleon that supports multiple serialization libraries, checkout the `chameleon-http4s` package: https://github.com/cornerman/chameleon.
